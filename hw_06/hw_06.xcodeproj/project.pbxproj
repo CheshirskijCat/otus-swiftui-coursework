@@ -23,7 +23,6 @@
 		DF4C6ACA244437D2007DCA7F /* SuffixIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C6AB4244437D2007DCA7F /* SuffixIterator.swift */; };
 		DF4C6ACB244437D2007DCA7F /* SuffixSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C6AB5244437D2007DCA7F /* SuffixSequence.swift */; };
 		DF4C6ACC244437D2007DCA7F /* TestStructureManipulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C6AB6244437D2007DCA7F /* TestStructureManipulator.swift */; };
-		DF4C6ACD244437D2007DCA7F /* SwiftSuffixArrayManipulator1.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C6AB8244437D2007DCA7F /* SwiftSuffixArrayManipulator1.swift */; };
 		DF4C6ACE244437D2007DCA7F /* TestAlgoFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C6AB9244437D2007DCA7F /* TestAlgoFactory.swift */; };
 		DF4C6ACF244437D2007DCA7F /* Profiler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C6ABA244437D2007DCA7F /* Profiler.swift */; };
 		DF4C6AD0244437D2007DCA7F /* TestStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C6ABC244437D2007DCA7F /* TestStructures.swift */; };
@@ -55,7 +54,6 @@
 		DF4C6AB4244437D2007DCA7F /* SuffixIterator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuffixIterator.swift; sourceTree = "<group>"; };
 		DF4C6AB5244437D2007DCA7F /* SuffixSequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuffixSequence.swift; sourceTree = "<group>"; };
 		DF4C6AB6244437D2007DCA7F /* TestStructureManipulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStructureManipulator.swift; sourceTree = "<group>"; };
-		DF4C6AB8244437D2007DCA7F /* SwiftSuffixArrayManipulator1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSuffixArrayManipulator1.swift; sourceTree = "<group>"; };
 		DF4C6AB9244437D2007DCA7F /* TestAlgoFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestAlgoFactory.swift; sourceTree = "<group>"; };
 		DF4C6ABA244437D2007DCA7F /* Profiler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profiler.swift; sourceTree = "<group>"; };
 		DF4C6ABC244437D2007DCA7F /* TestStructures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStructures.swift; sourceTree = "<group>"; };
@@ -145,7 +143,6 @@
 			children = (
 				DF4C6AAD244437D2007DCA7F /* Structures */,
 				DF4C6AB3244437D2007DCA7F /* SuffixArrayStructure */,
-				DF4C6AB7244437D2007DCA7F /* SuffixArray */,
 				DF4C6AB2244437D2007DCA7F /* StringGenerator.swift */,
 				DF4C6AB6244437D2007DCA7F /* TestStructureManipulator.swift */,
 				DF4C6AB9244437D2007DCA7F /* TestAlgoFactory.swift */,
@@ -171,14 +168,6 @@
 				DF4C6AB5244437D2007DCA7F /* SuffixSequence.swift */,
 			);
 			path = SuffixArrayStructure;
-			sourceTree = "<group>";
-		};
-		DF4C6AB7244437D2007DCA7F /* SuffixArray */ = {
-			isa = PBXGroup;
-			children = (
-				DF4C6AB8244437D2007DCA7F /* SwiftSuffixArrayManipulator1.swift */,
-			);
-			path = SuffixArray;
 			sourceTree = "<group>";
 		};
 		DF4C6ABB244437D2007DCA7F /* repository */ = {
@@ -298,7 +287,6 @@
 				DF4C6ADE2444DC12007DCA7F /* AlgoTestViewModel.swift in Sources */,
 				DF4C6ACA244437D2007DCA7F /* SuffixIterator.swift in Sources */,
 				DF4C6AC7244437D2007DCA7F /* SwiftSuffixArrayManipulator.swift in Sources */,
-				DF4C6ACD244437D2007DCA7F /* SwiftSuffixArrayManipulator1.swift in Sources */,
 				DF4C6ADC2444DA6F007DCA7F /* AlgoTestView.swift in Sources */,
 				DF4C6AC6244437D2007DCA7F /* SwiftDictionaryManipulator.swift in Sources */,
 				DF4C6AD0244437D2007DCA7F /* TestStructures.swift in Sources */,
