@@ -37,7 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF57D17B244E2771002F8F1D /* hw_12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_12.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF57D17B244E2771002F8F1D /* hw_13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_13.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF57D17E244E2771002F8F1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF57D180244E2771002F8F1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DF57D184244E2773002F8F1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -82,7 +82,7 @@
 		DF57D172244E2771002F8F1D = {
 			isa = PBXGroup;
 			children = (
-				DF57D17D244E2771002F8F1D /* hw_12 */,
+				DF57D17D244E2771002F8F1D /* hw_13 */,
 				DF57D17C244E2771002F8F1D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,12 +90,12 @@
 		DF57D17C244E2771002F8F1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF57D17B244E2771002F8F1D /* hw_12.app */,
+				DF57D17B244E2771002F8F1D /* hw_13.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DF57D17D244E2771002F8F1D /* hw_12 */ = {
+		DF57D17D244E2771002F8F1D /* hw_13 */ = {
 			isa = PBXGroup;
 			children = (
 				DF57D1A8244E3420002F8F1D /* extension */,
@@ -111,7 +111,7 @@
 				DF57D18C244E2773002F8F1D /* Info.plist */,
 				DF57D186244E2773002F8F1D /* Preview Content */,
 			);
-			path = hw_12;
+			path = hw_13;
 			sourceTree = "<group>";
 		};
 		DF57D186244E2773002F8F1D /* Preview Content */ = {
@@ -221,9 +221,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DF57D17A244E2771002F8F1D /* hw_12 */ = {
+		DF57D17A244E2771002F8F1D /* hw_13 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DF57D18F244E2773002F8F1D /* Build configuration list for PBXNativeTarget "hw_12" */;
+			buildConfigurationList = DF57D18F244E2773002F8F1D /* Build configuration list for PBXNativeTarget "hw_13" */;
 			buildPhases = (
 				DF57D177244E2771002F8F1D /* Sources */,
 				DF57D178244E2771002F8F1D /* Frameworks */,
@@ -233,9 +233,9 @@
 			);
 			dependencies = (
 			);
-			name = hw_12;
-			productName = hw_12;
-			productReference = DF57D17B244E2771002F8F1D /* hw_12.app */;
+			name = hw_13;
+			productName = hw_13;
+			productReference = DF57D17B244E2771002F8F1D /* hw_13.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -253,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DF57D176244E2771002F8F1D /* Build configuration list for PBXProject "hw_12" */;
+			buildConfigurationList = DF57D176244E2771002F8F1D /* Build configuration list for PBXProject "hw_13" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -266,7 +266,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DF57D17A244E2771002F8F1D /* hw_12 */,
+				DF57D17A244E2771002F8F1D /* hw_13 */,
 			);
 		};
 /* End PBXProject section */
@@ -449,16 +449,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"hw_12/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"hw_13/Preview Content\"";
 				DEVELOPMENT_TEAM = SJ4CR8SNS5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = hw_12/Info.plist;
+				INFOPLIST_FILE = hw_13/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-12";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-13";
+				PRODUCT_NAME = hw_13;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -469,16 +469,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"hw_12/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"hw_13/Preview Content\"";
 				DEVELOPMENT_TEAM = SJ4CR8SNS5;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = hw_12/Info.plist;
+				INFOPLIST_FILE = hw_13/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-12";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-13";
+				PRODUCT_NAME = hw_13;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -487,7 +487,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DF57D176244E2771002F8F1D /* Build configuration list for PBXProject "hw_12" */ = {
+		DF57D176244E2771002F8F1D /* Build configuration list for PBXProject "hw_13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF57D18D244E2773002F8F1D /* Debug */,
@@ -496,7 +496,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF57D18F244E2773002F8F1D /* Build configuration list for PBXNativeTarget "hw_12" */ = {
+		DF57D18F244E2773002F8F1D /* Build configuration list for PBXNativeTarget "hw_13" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DF57D190244E2773002F8F1D /* Debug */,
