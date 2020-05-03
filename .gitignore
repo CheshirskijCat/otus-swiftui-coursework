@@ -91,3 +91,15 @@ iOSInjectionProject/
 
 System files
 .DS_Store
+
+# android 
+*.apk
+*.zip
+
+# intelij
+.idea/
+gradle/
+.gradle/
+release/
+build/
+obj/

@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF545499245EABE200A6A306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545498245EABE200A6A306 /* AppDelegate.swift */; };
+		DF5454A6245EABE200A6A306 /* hw_14.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DF5454A5245EABE200A6A306 /* hw_14.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF5454AC245EABE200A6A306 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5454AA245EABE200A6A306 /* Interface.storyboard */; };
+		DF5454B3245EABE300A6A306 /* hw_14 Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DF5454B2245EABE300A6A306 /* hw_14 Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DF5454B8245EABE300A6A306 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5454B7245EABE300A6A306 /* InterfaceController.swift */; };
+		DF5454BA245EABE300A6A306 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5454B9245EABE300A6A306 /* ExtensionDelegate.swift */; };
+		DF5454C3245EABE300A6A306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5454C2245EABE300A6A306 /* AppDelegate.swift */; };
+		DF5454C5245EABE300A6A306 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5454C4245EABE300A6A306 /* GameViewController.swift */; };
+		DF5454C8245EABE300A6A306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5454C6245EABE300A6A306 /* Main.storyboard */; };
+		DF5454CB245EABE300A6A306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5454C9245EABE300A6A306 /* LaunchScreen.storyboard */; };
+		DF5454D4245EABE300A6A306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5454D3245EABE300A6A306 /* AppDelegate.swift */; };
+		DF5454D9245EABE300A6A306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF5454D7245EABE300A6A306 /* Main.storyboard */; };
+		DF5454DB245EABE300A6A306 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF54548D245EABE000A6A306 /* Actions.sks */; };
+		DF5454DC245EABE300A6A306 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF54548D245EABE000A6A306 /* Actions.sks */; };
+		DF5454DD245EABE300A6A306 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF54548D245EABE000A6A306 /* Actions.sks */; };
+		DF5454DE245EABE300A6A306 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF54548E245EABE000A6A306 /* GameScene.sks */; };
+		DF5454DF245EABE300A6A306 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF54548E245EABE000A6A306 /* GameScene.sks */; };
+		DF5454E0245EABE300A6A306 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF54548E245EABE000A6A306 /* GameScene.sks */; };
+		DF5454E1245EABE300A6A306 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DF54548E245EABE000A6A306 /* GameScene.sks */; };
+		DF5454E2245EABE300A6A306 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54548F245EABE000A6A306 /* GameScene.swift */; };
+		DF5454E3245EABE300A6A306 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54548F245EABE000A6A306 /* GameScene.swift */; };
+		DF5454E4245EABE300A6A306 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54548F245EABE000A6A306 /* GameScene.swift */; };
+		DF5454E5245EABE300A6A306 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54548F245EABE000A6A306 /* GameScene.swift */; };
+		DF5454E6245EABE300A6A306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF545490245EABE200A6A306 /* Assets.xcassets */; };
+		DF5454E7245EABE300A6A306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF545490245EABE200A6A306 /* Assets.xcassets */; };
+		DF5454E8245EABE300A6A306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF545490245EABE200A6A306 /* Assets.xcassets */; };
+		DF5454E9245EABE300A6A306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF545490245EABE200A6A306 /* Assets.xcassets */; };
+		DF545502245EADC700A6A306 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5454FE245EADC700A6A306 /* PlayView.swift */; };
+		DF545503245EADC700A6A306 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5454FF245EADC700A6A306 /* SettingsView.swift */; };
+		DF545505245EADC700A6A306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545501245EADC700A6A306 /* ContentView.swift */; };
+		DF545509245EAF1100A6A306 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545507245EAF0000A6A306 /* ContentViewModel.swift */; };
+		DF54550A245EAF1400A6A306 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545507245EAF0000A6A306 /* ContentViewModel.swift */; };
+		DF545511245EAF8600A6A306 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54550B245EAF8600A6A306 /* SceneDelegate.swift */; };
+		DF545512245EAF8600A6A306 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54550D245EAF8600A6A306 /* PlayView.swift */; };
+		DF545513245EAF8600A6A306 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54550E245EAF8600A6A306 /* SettingsView.swift */; };
+		DF545514245EAF8600A6A306 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54550F245EAF8600A6A306 /* LeaderboardView.swift */; };
+		DF545515245EAF8600A6A306 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545510245EAF8600A6A306 /* ContentView.swift */; };
+		DF545525245ECA7500A6A306 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545524245ECA7500A6A306 /* PlayViewModel.swift */; };
+		DF545528245ECF0D00A6A306 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545527245ECF0D00A6A306 /* GameState.swift */; };
+		DF54552E245ED01D00A6A306 /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF54552D245ED01D00A6A306 /* LeaderboardView.swift */; };
+		DF545535245ED5A400A6A306 /* DynamicJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545534245ED5A400A6A306 /* DynamicJSON.swift */; };
+		DF545538245ED5F000A6A306 /* DynamicJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545534245ED5A400A6A306 /* DynamicJSON.swift */; };
+		DF545539245ED5F100A6A306 /* DynamicJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545534245ED5A400A6A306 /* DynamicJSON.swift */; };
+		DF54553A245ED5F400A6A306 /* DynamicJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545534245ED5A400A6A306 /* DynamicJSON.swift */; };
+		DF545540245ED60E00A6A306 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545527245ECF0D00A6A306 /* GameState.swift */; };
+		DF545542245ED60F00A6A306 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545527245ECF0D00A6A306 /* GameState.swift */; };
+		DF545544245ED60F00A6A306 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545527245ECF0D00A6A306 /* GameState.swift */; };
+		DF545547245ED61700A6A306 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545507245EAF0000A6A306 /* ContentViewModel.swift */; };
+		DF545548245ED61700A6A306 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545524245ECA7500A6A306 /* PlayViewModel.swift */; };
+		DF545549245ED61700A6A306 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545530245ED35200A6A306 /* SettingsViewModel.swift */; };
+		DF54554A245ED61700A6A306 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545524245ECA7500A6A306 /* PlayViewModel.swift */; };
+		DF54554B245ED61700A6A306 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545530245ED35200A6A306 /* SettingsViewModel.swift */; };
+		DF54554C245ED61900A6A306 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545530245ED35200A6A306 /* SettingsViewModel.swift */; };
+		DF54554D245ED61A00A6A306 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545507245EAF0000A6A306 /* ContentViewModel.swift */; };
+		DF54554E245ED61A00A6A306 /* PlayViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545524245ECA7500A6A306 /* PlayViewModel.swift */; };
+		DF54554F245ED61A00A6A306 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545530245ED35200A6A306 /* SettingsViewModel.swift */; };
+		DF545552245EDB0900A6A306 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545551245EDB0900A6A306 /* Settings.swift */; };
+		DF545555245EDBAE00A6A306 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545554245EDBAE00A6A306 /* GameRecord.swift */; };
+		DF545556245EE04F00A6A306 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545551245EDB0900A6A306 /* Settings.swift */; };
+		DF545557245EE04F00A6A306 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545554245EDBAE00A6A306 /* GameRecord.swift */; };
+		DF545558245EE05000A6A306 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545551245EDB0900A6A306 /* Settings.swift */; };
+		DF545559245EE05000A6A306 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545554245EDBAE00A6A306 /* GameRecord.swift */; };
+		DF54555A245EE05100A6A306 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545551245EDB0900A6A306 /* Settings.swift */; };
+		DF54555B245EE05100A6A306 /* GameRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF545554245EDBAE00A6A306 /* GameRecord.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF5454A7245EABE200A6A306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF545488245EABE000A6A306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5454A4245EABE200A6A306;
+			remoteInfo = "hw_14 watchOS App";
+		};
+		DF5454B4245EABE300A6A306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF545488245EABE000A6A306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF5454B1245EABE300A6A306;
+			remoteInfo = "hw_14 watchOS App Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DF5454EF245EABE300A6A306 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DF5454B3245EABE300A6A306 /* hw_14 Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454F3245EABE300A6A306 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DF5454A6245EABE200A6A306 /* hw_14.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF54548D245EABE000A6A306 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DF54548E245EABE000A6A306 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DF54548F245EABE000A6A306 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DF545490245EABE200A6A306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF545495245EABE200A6A306 /* hw_14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF545498245EABE200A6A306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF5454A2245EABE200A6A306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5454A5245EABE200A6A306 /* hw_14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5454AB245EABE200A6A306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DF5454AD245EABE200A6A306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5454B2245EABE300A6A306 /* hw_14 Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "hw_14 Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5454B7245EABE300A6A306 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DF5454B9245EABE300A6A306 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DF5454BB245EABE300A6A306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5454C0245EABE300A6A306 /* hw_14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5454C2245EABE300A6A306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF5454C4245EABE300A6A306 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DF5454C7245EABE300A6A306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF5454CA245EABE300A6A306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF5454CC245EABE300A6A306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5454D1245EABE300A6A306 /* hw_14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw_14.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF5454D3245EABE300A6A306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF5454D8245EABE300A6A306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF5454DA245EABE300A6A306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF5454FE245EADC700A6A306 /* PlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		DF5454FF245EADC700A6A306 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DF545501245EADC700A6A306 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF545507245EAF0000A6A306 /* ContentViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		DF54550B245EAF8600A6A306 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF54550D245EAF8600A6A306 /* PlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		DF54550E245EAF8600A6A306 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		DF54550F245EAF8600A6A306 /* LeaderboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		DF545510245EAF8600A6A306 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF545524245ECA7500A6A306 /* PlayViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewModel.swift; sourceTree = "<group>"; };
+		DF545527245ECF0D00A6A306 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		DF54552D245ED01D00A6A306 /* LeaderboardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
+		DF545530245ED35200A6A306 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		DF545534245ED5A400A6A306 /* DynamicJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicJSON.swift; sourceTree = "<group>"; };
+		DF545551245EDB0900A6A306 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		DF545554245EDBAE00A6A306 /* GameRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRecord.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF545492245EABE200A6A306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454AF245EABE300A6A306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454BD245EABE300A6A306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454CE245EABE300A6A306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF545487245EABE000A6A306 = {
+			isa = PBXGroup;
+			children = (
+				DF54548C245EABE000A6A306 /* hw_14 Shared */,
+				DF545497245EABE200A6A306 /* hw_14 iOS */,
+				DF5454A9245EABE200A6A306 /* hw_14 watchOS App */,
+				DF5454B6245EABE300A6A306 /* hw_14 watchOS App Extension */,
+				DF5454C1245EABE300A6A306 /* hw_14 tvOS */,
+				DF5454D2245EABE300A6A306 /* hw_14 macOS */,
+				DF545496245EABE200A6A306 /* Products */,
+				DF54551B245EC92B00A6A306 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF54548C245EABE000A6A306 /* hw_14 Shared */ = {
+			isa = PBXGroup;
+			children = (
+				DF545506245EAF0000A6A306 /* viewmodel */,
+				DF545550245EDA9400A6A306 /* model */,
+				DF545526245ECEE300A6A306 /* repository */,
+				DF54552F245ED10600A6A306 /* utils */,
+				DF54548D245EABE000A6A306 /* Actions.sks */,
+				DF54548E245EABE000A6A306 /* GameScene.sks */,
+				DF54548F245EABE000A6A306 /* GameScene.swift */,
+				DF545490245EABE200A6A306 /* Assets.xcassets */,
+			);
+			path = "hw_14 Shared";
+			sourceTree = "<group>";
+		};
+		DF545496245EABE200A6A306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF545495245EABE200A6A306 /* hw_14.app */,
+				DF5454A5245EABE200A6A306 /* hw_14.app */,
+				DF5454B2245EABE300A6A306 /* hw_14 Extension.appex */,
+				DF5454C0245EABE300A6A306 /* hw_14.app */,
+				DF5454D1245EABE300A6A306 /* hw_14.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF545497245EABE200A6A306 /* hw_14 iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF54550C245EAF8600A6A306 /* view */,
+				DF545498245EABE200A6A306 /* AppDelegate.swift */,
+				DF54550B245EAF8600A6A306 /* SceneDelegate.swift */,
+				DF5454A2245EABE200A6A306 /* Info.plist */,
+			);
+			path = "hw_14 iOS";
+			sourceTree = "<group>";
+		};
+		DF5454A9245EABE200A6A306 /* hw_14 watchOS App */ = {
+			isa = PBXGroup;
+			children = (
+				DF5454AA245EABE200A6A306 /* Interface.storyboard */,
+				DF5454AD245EABE200A6A306 /* Info.plist */,
+			);
+			path = "hw_14 watchOS App";
+			sourceTree = "<group>";
+		};
+		DF5454B6245EABE300A6A306 /* hw_14 watchOS App Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DF5454B7245EABE300A6A306 /* InterfaceController.swift */,
+				DF5454B9245EABE300A6A306 /* ExtensionDelegate.swift */,
+				DF5454BB245EABE300A6A306 /* Info.plist */,
+			);
+			path = "hw_14 watchOS App Extension";
+			sourceTree = "<group>";
+		};
+		DF5454C1245EABE300A6A306 /* hw_14 tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF5454C2245EABE300A6A306 /* AppDelegate.swift */,
+				DF5454C4245EABE300A6A306 /* GameViewController.swift */,
+				DF5454C6245EABE300A6A306 /* Main.storyboard */,
+				DF5454C9245EABE300A6A306 /* LaunchScreen.storyboard */,
+				DF5454CC245EABE300A6A306 /* Info.plist */,
+			);
+			path = "hw_14 tvOS";
+			sourceTree = "<group>";
+		};
+		DF5454D2245EABE300A6A306 /* hw_14 macOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF5454FD245EADC700A6A306 /* view */,
+				DF5454D3245EABE300A6A306 /* AppDelegate.swift */,
+				DF5454D7245EABE300A6A306 /* Main.storyboard */,
+				DF5454DA245EABE300A6A306 /* Info.plist */,
+			);
+			path = "hw_14 macOS";
+			sourceTree = "<group>";
+		};
+		DF5454FD245EADC700A6A306 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DF5454FE245EADC700A6A306 /* PlayView.swift */,
+				DF5454FF245EADC700A6A306 /* SettingsView.swift */,
+				DF54552D245ED01D00A6A306 /* LeaderboardView.swift */,
+				DF545501245EADC700A6A306 /* ContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DF545506245EAF0000A6A306 /* viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				DF545507245EAF0000A6A306 /* ContentViewModel.swift */,
+				DF545524245ECA7500A6A306 /* PlayViewModel.swift */,
+				DF545530245ED35200A6A306 /* SettingsViewModel.swift */,
+			);
+			path = viewmodel;
+			sourceTree = "<group>";
+		};
+		DF54550C245EAF8600A6A306 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				DF54550D245EAF8600A6A306 /* PlayView.swift */,
+				DF54550E245EAF8600A6A306 /* SettingsView.swift */,
+				DF54550F245EAF8600A6A306 /* LeaderboardView.swift */,
+				DF545510245EAF8600A6A306 /* ContentView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		DF54551B245EC92B00A6A306 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF545526245ECEE300A6A306 /* repository */ = {
+			isa = PBXGroup;
+			children = (
+				DF545527245ECF0D00A6A306 /* GameState.swift */,
+			);
+			path = repository;
+			sourceTree = "<group>";
+		};
+		DF54552F245ED10600A6A306 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				DF545534245ED5A400A6A306 /* DynamicJSON.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DF545550245EDA9400A6A306 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				DF545551245EDB0900A6A306 /* Settings.swift */,
+				DF545554245EDBAE00A6A306 /* GameRecord.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF545494245EABE200A6A306 /* hw_14 iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5454F4245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 iOS" */;
+			buildPhases = (
+				DF545491245EABE200A6A306 /* Sources */,
+				DF545492245EABE200A6A306 /* Frameworks */,
+				DF545493245EABE200A6A306 /* Resources */,
+				DF5454F3245EABE300A6A306 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5454A8245EABE200A6A306 /* PBXTargetDependency */,
+			);
+			name = "hw_14 iOS";
+			packageProductDependencies = (
+			);
+			productName = "hw_14 iOS";
+			productReference = DF545495245EABE200A6A306 /* hw_14.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF5454A4245EABE200A6A306 /* hw_14 watchOS App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5454F0245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 watchOS App" */;
+			buildPhases = (
+				DF5454A3245EABE200A6A306 /* Resources */,
+				DF5454EF245EABE300A6A306 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF5454B5245EABE300A6A306 /* PBXTargetDependency */,
+			);
+			name = "hw_14 watchOS App";
+			productName = "hw_14 watchOS App";
+			productReference = DF5454A5245EABE200A6A306 /* hw_14.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DF5454B1245EABE300A6A306 /* hw_14 watchOS App Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5454EC245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 watchOS App Extension" */;
+			buildPhases = (
+				DF5454AE245EABE300A6A306 /* Sources */,
+				DF5454AF245EABE300A6A306 /* Frameworks */,
+				DF5454B0245EABE300A6A306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw_14 watchOS App Extension";
+			productName = "hw_14 watchOS App Extension";
+			productReference = DF5454B2245EABE300A6A306 /* hw_14 Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		DF5454BF245EABE300A6A306 /* hw_14 tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5454F7245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 tvOS" */;
+			buildPhases = (
+				DF5454BC245EABE300A6A306 /* Sources */,
+				DF5454BD245EABE300A6A306 /* Frameworks */,
+				DF5454BE245EABE300A6A306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw_14 tvOS";
+			packageProductDependencies = (
+			);
+			productName = "hw_14 tvOS";
+			productReference = DF5454C0245EABE300A6A306 /* hw_14.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF5454D0245EABE300A6A306 /* hw_14 macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF5454FA245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 macOS" */;
+			buildPhases = (
+				DF5454CD245EABE300A6A306 /* Sources */,
+				DF5454CE245EABE300A6A306 /* Frameworks */,
+				DF5454CF245EABE300A6A306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hw_14 macOS";
+			packageProductDependencies = (
+			);
+			productName = "hw_14 macOS";
+			productReference = DF5454D1245EABE300A6A306 /* hw_14.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF545488245EABE000A6A306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Dmitry Dementyev";
+				TargetAttributes = {
+					DF545494245EABE200A6A306 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					DF5454A4245EABE200A6A306 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					DF5454B1245EABE300A6A306 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					DF5454BF245EABE300A6A306 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					DF5454D0245EABE300A6A306 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = DF54548B245EABE000A6A306 /* Build configuration list for PBXProject "hw_14" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF545487245EABE000A6A306;
+			packageReferences = (
+			);
+			productRefGroup = DF545496245EABE200A6A306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF545494245EABE200A6A306 /* hw_14 iOS */,
+				DF5454A4245EABE200A6A306 /* hw_14 watchOS App */,
+				DF5454B1245EABE300A6A306 /* hw_14 watchOS App Extension */,
+				DF5454BF245EABE300A6A306 /* hw_14 tvOS */,
+				DF5454D0245EABE300A6A306 /* hw_14 macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF545493245EABE200A6A306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5454DE245EABE300A6A306 /* GameScene.sks in Resources */,
+				DF5454DB245EABE300A6A306 /* Actions.sks in Resources */,
+				DF5454E6245EABE300A6A306 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454A3245EABE200A6A306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5454E7245EABE300A6A306 /* Assets.xcassets in Resources */,
+				DF5454AC245EABE200A6A306 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454B0245EABE300A6A306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5454DF245EABE300A6A306 /* GameScene.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454BE245EABE300A6A306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5454E0245EABE300A6A306 /* GameScene.sks in Resources */,
+				DF5454C8245EABE300A6A306 /* Main.storyboard in Resources */,
+				DF5454DC245EABE300A6A306 /* Actions.sks in Resources */,
+				DF5454CB245EABE300A6A306 /* LaunchScreen.storyboard in Resources */,
+				DF5454E8245EABE300A6A306 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454CF245EABE300A6A306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF5454D9245EABE300A6A306 /* Main.storyboard in Resources */,
+				DF5454E1245EABE300A6A306 /* GameScene.sks in Resources */,
+				DF5454E9245EABE300A6A306 /* Assets.xcassets in Resources */,
+				DF5454DD245EABE300A6A306 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF545491245EABE200A6A306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF54555B245EE05100A6A306 /* GameRecord.swift in Sources */,
+				DF545509245EAF1100A6A306 /* ContentViewModel.swift in Sources */,
+				DF545528245ECF0D00A6A306 /* GameState.swift in Sources */,
+				DF54555A245EE05100A6A306 /* Settings.swift in Sources */,
+				DF545514245EAF8600A6A306 /* LeaderboardView.swift in Sources */,
+				DF545515245EAF8600A6A306 /* ContentView.swift in Sources */,
+				DF5454E2245EABE300A6A306 /* GameScene.swift in Sources */,
+				DF54554C245ED61900A6A306 /* SettingsViewModel.swift in Sources */,
+				DF545499245EABE200A6A306 /* AppDelegate.swift in Sources */,
+				DF545513245EAF8600A6A306 /* SettingsView.swift in Sources */,
+				DF545539245ED5F100A6A306 /* DynamicJSON.swift in Sources */,
+				DF545525245ECA7500A6A306 /* PlayViewModel.swift in Sources */,
+				DF545512245EAF8600A6A306 /* PlayView.swift in Sources */,
+				DF545511245EAF8600A6A306 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454AE245EABE300A6A306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF545559245EE05000A6A306 /* GameRecord.swift in Sources */,
+				DF545544245ED60F00A6A306 /* GameState.swift in Sources */,
+				DF5454E3245EABE300A6A306 /* GameScene.swift in Sources */,
+				DF54554E245ED61A00A6A306 /* PlayViewModel.swift in Sources */,
+				DF5454BA245EABE300A6A306 /* ExtensionDelegate.swift in Sources */,
+				DF5454B8245EABE300A6A306 /* InterfaceController.swift in Sources */,
+				DF54554D245ED61A00A6A306 /* ContentViewModel.swift in Sources */,
+				DF545558245EE05000A6A306 /* Settings.swift in Sources */,
+				DF54554F245ED61A00A6A306 /* SettingsViewModel.swift in Sources */,
+				DF54553A245ED5F400A6A306 /* DynamicJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454BC245EABE300A6A306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF545557245EE04F00A6A306 /* GameRecord.swift in Sources */,
+				DF54550A245EAF1400A6A306 /* ContentViewModel.swift in Sources */,
+				DF545538245ED5F000A6A306 /* DynamicJSON.swift in Sources */,
+				DF54554A245ED61700A6A306 /* PlayViewModel.swift in Sources */,
+				DF5454E4245EABE300A6A306 /* GameScene.swift in Sources */,
+				DF5454C5245EABE300A6A306 /* GameViewController.swift in Sources */,
+				DF545542245ED60F00A6A306 /* GameState.swift in Sources */,
+				DF545556245EE04F00A6A306 /* Settings.swift in Sources */,
+				DF54554B245ED61700A6A306 /* SettingsViewModel.swift in Sources */,
+				DF5454C3245EABE300A6A306 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF5454CD245EABE300A6A306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF545555245EDBAE00A6A306 /* GameRecord.swift in Sources */,
+				DF545502245EADC700A6A306 /* PlayView.swift in Sources */,
+				DF545548245ED61700A6A306 /* PlayViewModel.swift in Sources */,
+				DF545503245EADC700A6A306 /* SettingsView.swift in Sources */,
+				DF545505245EADC700A6A306 /* ContentView.swift in Sources */,
+				DF545535245ED5A400A6A306 /* DynamicJSON.swift in Sources */,
+				DF54552E245ED01D00A6A306 /* LeaderboardView.swift in Sources */,
+				DF545552245EDB0900A6A306 /* Settings.swift in Sources */,
+				DF5454E5245EABE300A6A306 /* GameScene.swift in Sources */,
+				DF5454D4245EABE300A6A306 /* AppDelegate.swift in Sources */,
+				DF545547245ED61700A6A306 /* ContentViewModel.swift in Sources */,
+				DF545540245ED60E00A6A306 /* GameState.swift in Sources */,
+				DF545549245ED61700A6A306 /* SettingsViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF5454A8245EABE200A6A306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5454A4245EABE200A6A306 /* hw_14 watchOS App */;
+			targetProxy = DF5454A7245EABE200A6A306 /* PBXContainerItemProxy */;
+		};
+		DF5454B5245EABE300A6A306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF5454B1245EABE300A6A306 /* hw_14 watchOS App Extension */;
+			targetProxy = DF5454B4245EABE300A6A306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF5454AA245EABE200A6A306 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5454AB245EABE200A6A306 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5454C6245EABE300A6A306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5454C7245EABE300A6A306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5454C9245EABE300A6A306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5454CA245EABE300A6A306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DF5454D7245EABE300A6A306 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF5454D8245EABE300A6A306 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF5454EA245EABE300A6A306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF5454EB245EABE300A6A306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DF5454ED245EABE300A6A306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				INFOPLIST_FILE = "hw_14 watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "hw_14 Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		DF5454EE245EABE300A6A306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				INFOPLIST_FILE = "hw_14 watchOS App Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "hw_14 Extension";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		DF5454F1245EABE300A6A306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				IBSC_MODULE = hw_14_Extension;
+				INFOPLIST_FILE = "hw_14 watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14.watchkitapp";
+				PRODUCT_NAME = hw_14;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		DF5454F2245EABE300A6A306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				IBSC_MODULE = hw_14_Extension;
+				INFOPLIST_FILE = "hw_14 watchOS App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14.watchkitapp";
+				PRODUCT_NAME = hw_14;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		DF5454F5245EABE300A6A306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				INFOPLIST_FILE = "hw_14 iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14";
+				PRODUCT_NAME = hw_14;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF5454F6245EABE300A6A306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				INFOPLIST_FILE = "hw_14 iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14";
+				PRODUCT_NAME = hw_14;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5454F8245EABE300A6A306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				INFOPLIST_FILE = "hw_14 tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14";
+				PRODUCT_NAME = hw_14;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+			};
+			name = Debug;
+		};
+		DF5454F9245EABE300A6A306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				INFOPLIST_FILE = "hw_14 tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14";
+				PRODUCT_NAME = hw_14;
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 13.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF5454FB245EABE300A6A306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "hw_14 macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14";
+				PRODUCT_NAME = hw_14;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF5454FC245EABE300A6A306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = SJ4CR8SNS5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "hw_14 macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.otus.swift.hw-14";
+				PRODUCT_NAME = hw_14;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF54548B245EABE000A6A306 /* Build configuration list for PBXProject "hw_14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5454EA245EABE300A6A306 /* Debug */,
+				DF5454EB245EABE300A6A306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5454EC245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 watchOS App Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5454ED245EABE300A6A306 /* Debug */,
+				DF5454EE245EABE300A6A306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5454F0245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 watchOS App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5454F1245EABE300A6A306 /* Debug */,
+				DF5454F2245EABE300A6A306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5454F4245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5454F5245EABE300A6A306 /* Debug */,
+				DF5454F6245EABE300A6A306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5454F7245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5454F8245EABE300A6A306 /* Debug */,
+				DF5454F9245EABE300A6A306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF5454FA245EABE300A6A306 /* Build configuration list for PBXNativeTarget "hw_14 macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF5454FB245EABE300A6A306 /* Debug */,
+				DF5454FC245EABE300A6A306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF545488245EABE000A6A306 /* Project object */;
+}
