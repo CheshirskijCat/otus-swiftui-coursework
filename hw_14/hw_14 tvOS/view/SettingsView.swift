@@ -31,7 +31,6 @@ struct SettingsView: View {
                     self.content.gametime = $0.filter { "0123456789".contains($0) }
                     
                 }))
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(width: 100)
                     .padding(10)
                 Spacer()
@@ -48,7 +47,6 @@ struct SettingsView: View {
                 }, set: {
                     self.content.player = $0
                 }))
-                    .textFieldStyle(RoundedBorderTextFieldStyle())
                     .frame(width: 100)
                     .padding(10)
                 Spacer()
